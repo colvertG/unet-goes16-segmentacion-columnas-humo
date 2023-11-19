@@ -14,3 +14,7 @@ El modelo final alcanzó un índice de Jaccard (IoU) de 0.8252 y un coeficiente 
 ## Instrucciones de Uso
 Para volver a entrenar el modelo se debe descargar el conjunto de dato correr el codigo ""
 Para segmentar una imagen con el modelo ya entrenado, se de
+
+
+## Ejemplo de segmentación:
+![image](https://github.com/colvertG/unet-goes16-segmentacion-columnas-humo/assets/39036143/2b766700-9a5c-4cc4-8750-0d91c8d158cd)
