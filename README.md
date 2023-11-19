@@ -1,10 +1,7 @@
 # Repositorio de tesis: Modelo de segmentación semántica de columnas de humo derivadas de incendios forestales en México
 
-## Descripción:
+## Descripción general:
 Este repositorio alberga los resultados y el código asociado a la tesis que aborda el desafío de la segmentación semántica de columnas de humo provocadas por incendios forestales en México, utilizando imágenes satelitales del satélite GOES-16 y aprendizaje profundo.
-
-## Descripción General
-Este repositorio presenta los resultados de una investigación centrada en la detección y segmentación de incendios forestales utilizando imágenes del satélite GOES-16. Los logros obtenidos representan un avance significativo en la capacidad de monitoreo y predicción de incendios forestales, con implicaciones directas en la gestión y mitigación de estos eventos devastadores.
 
 ## Construcción de la Base de Datos
 Se recopilaron y segmentaron manualmente 1061 imágenes de incendios forestales capturadas por el satélite GOES-16. Esta segmentación manual generó máscaras precisas de las regiones de humo, sirviendo como conjunto de datos de referencia para el entrenamiento, evaluación y prueba de los modelos.
