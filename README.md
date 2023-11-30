@@ -33,7 +33,7 @@ Para utilizar el modelo entrenado:
 2. Descomprime los archivos rar.
 3. Ajusta el código para apuntar al directorio de los pesos descargados.
 4. Asegúrate de tener todas las bibliotecas requeridas instaladas en tu entorno.
-5. Utiliza el código **Segmentacion_humo_unet_prueba** para segmentar nuevas imágenes y obtener predicciones basadas en el modelo previamente entrenado.
+5. Utiliza el código **Segmentacion_humo_unet_prueba.ipynb** para segmentar nuevas imágenes y obtener predicciones basadas en el modelo previamente entrenado.
 
 Los notebooks ubicados en el directorio */02-optimización-hiperparámetros* han sido creados para experimentar con diferentes conjuntos de hiperparámetros. Puedes explorar y ajustar estos notebooks según sea necesario para mejorar el rendimiento del modelo y adaptarlo a tus necesidades específicas.
 
