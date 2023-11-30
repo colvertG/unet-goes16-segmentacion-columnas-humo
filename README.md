@@ -2,7 +2,7 @@
 
 ![gif](Columna_de_humo.gif)
 
-*verde: segmentación manual, Azul: Segmentaciones predichas por el modelo* 
+*Verde: segmentación manual, azul: segmentaciones predichas por el modelo* 
 
 ## Descripción general:
 Este repositorio alberga los resultados y el código asociado a la tesis que aborda el desafío de la segmentación semántica de columnas de humo provocadas por incendios forestales en México, utilizando imágenes del satélite GOES-16 y arquitectura de aprendizaje profundo U-Net.
