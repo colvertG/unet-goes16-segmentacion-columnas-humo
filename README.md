@@ -19,18 +19,18 @@ El modelo final alcanzó un índice de Jaccard (IoU) de 0.8252 y un coeficiente 
 
 ## Instrucciones de Uso
 Para reentrenar el modelo final, sigue estos pasos:
-1. Descarga el conjunto de datos desde Kaggle.
+1. Descarga el conjunto de datos desde Kaggle [Kaggle](https://www.kaggle.com/datasets/colvertgomez/goes16-wildfires-smoke-plumes-dataset).
 2. Asegúrate de tener todas las bibliotecas requeridas instaladas en tu entorno.
 3. Ajusta las direcciones en el código fuente para reflejar la ubicación de tus datos descargados.
-2. Ejecuta el código de entrenamiento "" para actualizar el modelo con los nuevos datos.
+2. Ejecuta el código de entrenamiento **Segmentacion_humo_unet_entrenamiento.ipynb** para entrenar el modelo.
 
 Para utilizar el modelo entrenado:
-1. Descarga los pesos del modelo desde el archivo designado.
+1. Descarga los pesos del modelo entrenado en */03_modelo_final/unet_columnas_humo_g16_v1_iou8252.pth*
 2. Ajusta el código para apuntar al directorio de los pesos descargados.
 3. Asegúrate de tener todas las bibliotecas requeridas instaladas en tu entorno.
 4. Utiliza el código para segmentar nuevas imágenes y obtener predicciones basadas en el modelo previamente entrenado.
 
-Los notebooks ubicados en el directorio /optim han sido creados para experimentar con diferentes conjuntos de hiperparámetros. Puedes explorar y ajustar estos notebooks según sea necesario para mejorar el rendimiento del modelo y adaptarlo a tus necesidades específicas.
+Los notebooks ubicados en el directorio */02-optimización-hiperparámetros* han sido creados para experimentar con diferentes conjuntos de hiperparámetros. Puedes explorar y ajustar estos notebooks según sea necesario para mejorar el rendimiento del modelo y adaptarlo a tus necesidades específicas.
 
 ## Ejemplo de segmentación:
 Segmentaciones predichas por el modelo (azul), y segmentación manual (verde) de 20 imágenes aleatorias del conjunto de prueba.
