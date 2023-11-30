@@ -2,6 +2,8 @@
 
 ![gif](Columna_de_humo.gif)
 
+*verde: segmentación manual, Azul: Segmentaciones predichas por el modelo* 
+
 ## Descripción general:
 Este repositorio alberga los resultados y el código asociado a la tesis que aborda el desafío de la segmentación semántica de columnas de humo provocadas por incendios forestales en México, utilizando imágenes del satélite GOES-16 y arquitectura de aprendizaje profundo U-Net.
 
@@ -31,13 +33,10 @@ Para utilizar el modelo entrenado:
 2. Descomprime los archivos rar.
 3. Ajusta el código para apuntar al directorio de los pesos descargados.
 4. Asegúrate de tener todas las bibliotecas requeridas instaladas en tu entorno.
-5. Utiliza el código para segmentar nuevas imágenes y obtener predicciones basadas en el modelo previamente entrenado.
+5. Utiliza el código **Segmentacion_humo_unet_prueba** para segmentar nuevas imágenes y obtener predicciones basadas en el modelo previamente entrenado.
 
 Los notebooks ubicados en el directorio */02-optimización-hiperparámetros* han sido creados para experimentar con diferentes conjuntos de hiperparámetros. Puedes explorar y ajustar estos notebooks según sea necesario para mejorar el rendimiento del modelo y adaptarlo a tus necesidades específicas.
 
 ## Ejemplo de segmentación:
-
-
-
 Segmentaciones predichas por el modelo (azul), y segmentación manual (verde) de 20 imágenes aleatorias del conjunto de prueba.
 ![image](https://github.com/colvertG/unet-goes16-segmentacion-columnas-humo/assets/39036143/2b766700-9a5c-4cc4-8750-0d91c8d158cd)
