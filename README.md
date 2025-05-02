@@ -1,4 +1,4 @@
-# Repositorio de tesis: Modelo de segmentación semántica de columnas de humo derivadas de incendios forestales en México
+# Repositorio: Modelo de segmentación semántica de columnas de humo derivadas de incendios forestales en México
 
 ![gif](Columna_de_humo.gif)
 
